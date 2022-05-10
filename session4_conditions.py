@@ -17,6 +17,7 @@ elif num2 > num1:
 else:
 	print("num1 is equal to num2")
 
+# 1 2 0 
 if 0:
 	print("Statement in if block")
 else:
