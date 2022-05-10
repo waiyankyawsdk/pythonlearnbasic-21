@@ -10,3 +10,7 @@ while count <= 20:
 	sum = sum + count
 	count += 1
 print(sum)
+
+#Note :
+# while [condition]
+# for value in [iterable datatype]
