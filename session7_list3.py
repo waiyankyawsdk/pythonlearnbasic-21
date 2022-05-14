@@ -42,6 +42,7 @@ print(ls.count(30))
 #list concatenation
 print(ls + l3)
 
+#times of list 
 li = [0.1]
 print(li*15)
 
