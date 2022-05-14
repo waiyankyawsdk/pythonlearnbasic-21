@@ -3,14 +3,14 @@
 #2 ordered indexing and slicing
 #3 heterogeneous datatype (any)
 li = [10,20,0,40,"Python","Java",[100,200,300]]
-print(li,type(li))
+print(li,type(li))	#[10, 20, 0, 40, 'Python', 'Java', [100, 200, 300]] <class 'list'>
 
-#indexing and slicing:
-print(li[-1])	#last element
+
+print(li[-1])	#last element [100, 200, 300]
 # print(li[20]) #out of range
 
-print(li[1:3])
-print(li[::-1])	#reverse order
+print(li[1:3])	#[20, 0]
+print(li[::-1])	#reverse order [100, 200, 300], 'Java', 'Python', 40, 0, 20, 10]
 
 # for value in li:
 # 	print(value)
