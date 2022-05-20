@@ -1,5 +1,8 @@
 #1 Positional argument
 #2 Default argument
+#3 Keyword argument
+#4 Variable length position argument
+#5 Varibale length keyword argument
 
 def linear_search(l,key):
 	for value in l:
@@ -61,3 +64,27 @@ validate(password="Abc@123",username="ABC")
 
 print(100,200,"\n","Hi")
 print(100,200,sep= ",",end = " ")
+
+# l = [100,200,300,400]
+# l.append(500,250,350)
+# print(l)
+
+#variable length args
+def add_value(*args):
+	l = []
+	for value in args:
+		l.append(value)
+
+	return l
+result = add_value(100,200,300,400,500)
+print(result)
+result = add_value(100,200)
+
+result = add_value(100,200,300,400,500)
+print(result)
+
+#name,email,contact,dob
+
+def get_details(**kwargs):
+	print(kwargs)
+get_details(name="ABC",email="abc@gmail.com",contact=2123456,dob = "12-05-1890")
