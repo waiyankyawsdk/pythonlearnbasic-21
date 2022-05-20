@@ -31,3 +31,8 @@ print(result)
 num = 100
 result = value_reverse(num)
 print(result)
+
+num = "Python"
+result = value_reverse(num)
+print(result)
+
