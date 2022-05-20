@@ -84,7 +84,7 @@ result = add_value(100,200,300,400,500)
 print(result)
 
 #name,email,contact,dob
-
+#keyword args 
 def get_details(**kwargs):
 	print(kwargs)
 get_details(name="ABC",email="abc@gmail.com",contact=2123456,dob = "12-05-1890")
