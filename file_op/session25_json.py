@@ -23,6 +23,7 @@ d['files']['log'] = ("/log/app.log","/log/mysql/app.log")
 
 j = json.dumps(d,indent=4,sort_keys=True)
 #convert json data type
+#indext=4 : for prettify
 # print(j)
 
 handle = open("json_output.json","w")
