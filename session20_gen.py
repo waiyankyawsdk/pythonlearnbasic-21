@@ -40,7 +40,7 @@
 # for value in range(20):
 #     print(next(g))
 
-#para
+#comprehension
 l = [10,20,30,40,50,60]
 #generator expression
 l2 = (value*value for value in l)
