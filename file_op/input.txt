@@ -1,0 +1,147 @@
+Real Python
+
+Search
+All Resources
+Learning Paths
+Articles
+Courses
+Course Lessons
+Quizzes
+Podcasts
+Topics
+All Skill Levels
+ Basics
+ Intermediate
+ Advanced
+Any Status
+ Bookmarked
+ Completed
+ In-Progress
+ Not Started
+ Send Feedback
+
+744 results
+
+LBYL vs EAFP: Preventing or Handling Errors in Python
+Jun 01, 2022  pythonintermediatebest-practices
+
+In this tutorial, you'll learn about two popular coding styles in Python: look before you leap (LBYL) and easier to ask forgiveness than permission (EAFP). You can use these styles to deal with errors and exceptional situations in your code. You'll dive into the LBYL vs EAFP discussion in Python.
+
+
+Course: Data Cleaning With pandas and NumPy
+May 31, 2022  intermediatedata-science
+
+In this video course, you'll learn how to clean up messy data using pandas and NumPy. You'll become equipped to deal with a range of problems, such as missing values, inconsistent formatting, malformed records, and nonsensical outliers.
+
+
+Python News: What's New From May 2022
+May 30, 2022  community
+
+The first days of May 2022 were the last days of this year's PyCon US event. Just before the PyCon conference, Python developers gathered for the Python Language Summit. The coverage of both Python events is online now. The month of May also had two exciting Python releases in store and marked the annual Global Accessibility Awareness Day.
+
+
+Office Hours
+Join us live for an exclusive members-only Q&A session with the Real Python team. You'll meet fellow Pythonistas to chat about your learning progress, ask questions, and discuss Python tips & tricks via screen sharing. Simply register for upcoming events on this page.
+
+
+Level Up Your Skills With the Real Python Slack Community
+May 25, 2022  best-practicescommunity
+
+In this guide, you'll learn how to get the most out of your Real Python membership using the community Slack. You'll learn some lesser-known features of Slack and see how to communicate your technical problems more effectively.
+
+
+Course: Exploring Scopes and Closures in Python
+May 24, 2022  pythonintermediatecommunity
+
+In this Code Conversation video course, you'll take a deep dive into how scopes and closures work in Python. To do this, you'll use a debugger to walk through some sample code, and then you'll take a peek under the hood to see how Python holds variables internally.
+
+
+How to Publish an Open-Source Python Package to PyPI
+May 23, 2022  best-practicesintermediatetools
+
+In this step-by-step tutorial, you’ll learn how to create a Python package for your project and how to publish it to PyPI, the Python Package Repository. Quickly get up to speed on everything from naming your package to configuring it using setup.cfg.
+
+
+Build a URL Shortener With FastAPI and Python
+May 18, 2022  projectsintermediatedatabasesapiweb-dev
+
+In this step-by-step project, you'll build an app to create and manage shortened URLs. Your Python URL shortener can receive a full target URL and return a shortened URL. You'll also use the automatically created documentation of FastAPI to try out your API endpoints.
+
+
+Course: Using Python Class Constructors
+May 17, 2022  pythonintermediate
+
+In this video course, you'll learn how class constructors work in Python. You'll also explore Python's instantiation process, which has two main steps: instance creation and instance initialization.
+
+
+Linear Regression in Python
+May 16, 2022  intermediatedata-sciencemachine-learning
+
+In this step-by-step tutorial, you'll get started with linear regression in Python. Linear regression is one of the fundamental statistical and machine learning techniques, and Python is a popular choice for machine learning.
+
+
+Python Learning Resources
+At Real Python we offer a number of Python training services and products that will help you take your Python skills to the next level. Speed up your Python learning curve—and get better, faster.
+
+
+pandas GroupBy: Your Guide to Grouping Data in Python
+May 11, 2022  pythonintermediatedata-science
+
+In this tutorial, you'll learn how to work adeptly with the pandas GroupBy facility while mastering ways to manipulate, transform, and summarize data. You'll work with real-world datasets and chain GroupBy methods together to get data in an output that suits your purpose.
+
+
+Course: Deploying a Flask Application Using Heroku
+May 10, 2022  intermediateflaskdevopsweb-dev
+
+In this video course, you'll learn how to create a Python Flask example web application and deploy it using Heroku. You’ll also use Git to track changes to the code, and you’ll configure a deployment workflow with different environments for staging and production.
+
+
+Python News: What's New From April 2022
+May 09, 2022  community
+
+In April 2022, the PyCon US conference happened in Salt Lake City. During the conference, Python developers met for the annual Language Summit, and Anaconda announced PyScript, a way to write Python directly inside HTML. In this article, you'll learn more about what happened in the last month in the world of Python.
+
+
+Top Python Game Engines
+May 04, 2022  gamedevbasics
+
+In this tutorial, you'll explore several Python game engines available to you. For each, you'll code simple examples and a more advanced game to learn the game engine's strengths and weaknesses.
+
+
+Sponsorship Opportunities
+By sponsoring Real Python you will reach a demographic of Python software engineers dedicated to improving their craft and their professional careers. We offer our clients multiple touchpoints across our platforms, ensuring your message cuts through to our audience.
+
+
+Course: Testing Your Code With pytest
+May 03, 2022  testingpythonintermediate
+
+In this video course, you'll learn how to take your testing to the next level with pytest. You'll cover intermediate and advanced pytest features such as fixtures, marks, parameters, and plugins. With pytest, you can make your test suites fast, effective, and less painful to maintain.
+
+
+Python's min() and max(): Find Smallest and Largest Values
+May 02, 2022  pythonbasics
+
+In this tutorial, you'll learn how to use Python's built-in min() and max() functions to find the smallest and largest values. You'll also learn how to modify their standard behavior by providing a suitable key function. Finally, you'll code a few practical examples of using min() and max().
+
+
+Real Python at PyCon US 2022
+Apr 29, 2022  community
+
+PyCon US is finally happening in person again. If you're in Salt Lake City, then come meet us at our Real Python booth and join our open space!
+
+
+Why Is It Important to Close Files in Python?
+Apr 27, 2022  pythonintermediatebest-practices
+
+Model citizens use context managers to open and close file resources in Python, but have you ever wondered why it's important to close files? In this tutorial, you'll take a deep dive into the reasons why it's important to close files and what can happen if you dont.
+
+© 2012–2022 Real Python ⋅ Newsletter ⋅ Podcast ⋅ YouTube ⋅ Twitter ⋅ Facebook ⋅ Instagram ⋅ Python Tutorials ⋅ Search ⋅ Privacy Policy ⋅ Energy Policy ⋅ Advertise ⋅ Contact
+❤️ Happy Pythoning!
+
+Sample line added using python script
+
+Sample line added using python script
+
+Sample line added using python script
+
+abc
