@@ -86,11 +86,11 @@ fp = open("input.txt","a+")
 
 fp.write("\n\nabc")
 
-r => fp => start, file should already exist, read
-r+ => fp => start, file should already exist, read + write
+# r => fp => start, file should already exist, read
+# r+ => fp => start, file should already exist, read + write
 
-w => fp => start, create a new file, write
-w+ => fp => start, create a new file, write+ read
+# w => fp => start, create a new file, write
+# w+ => fp => start, create a new file, write+ read
 
-a => fp => end , create a new file, wirte at the end
-a+ => fp => end , create a new file, wirte at the end
+# a => fp => end , create a new file, wirte at the end
+# a+ => fp => end , create a new file, wirte at the end
