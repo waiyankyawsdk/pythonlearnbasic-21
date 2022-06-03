@@ -54,12 +54,13 @@ class Account:
         self.__balance = self.__balance + amount
         return self.__balance
 
-    def withdraw(self, amount):
+    def withdraw(self,amount):
         if amount > self.__balance:
             return "Insufficient balance"
         else:
             self.__balance -= amount
         return self.__balance
+        
 customer1 = Account("101","ABC")
 # Account(customer1,"101","ABC")
 # print(customer1)
@@ -116,20 +117,35 @@ Account.print_Val()
 
 class Saving_Account(Account):
     def __int__(self,id,name,initial_bal=0):
-        #super 
+        
         super().__init__(id,name,initial_bal)
         self.limit = 50000
     
-    def withdraw(self, amount):
-        if amount < self.limit:
-            new_bal = super().withdraw(amount)
-            self.limit -=amount
-            return new_bal
-        else:
-            print("Daily limit reached")
+    # def withdraw(self,amount):
+    #     if amount < self.limit:
+    #         new_bal = super().withdraw(amount)
+    #         self.limit -= amount
+    #         return new_bal
+    #     else:
+    #         print("Daily limit reached")
  
 cust1 = Saving_Account(105,"ARG")
 print(cust1.__dict__)
 # help(customer1)
 print(cust1.deposite(80000))
 print(cust1.withdraw(40000))
+
+# A B
+# C
+
+class A:
+    pass
+
+class B:
+    pass
+
+class C(A,B):
+    pass
+
+obj = C()
+help(obj)
