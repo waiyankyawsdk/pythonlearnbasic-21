@@ -35,7 +35,7 @@ class Account:
     def print_Val():
         print("Static method is account class")
 
-    def __init__(self,cust_id,name,initial_bal=0) -> None:
+    def __init__(self,cust_id,name,initial_bal=0):
         self.__id = cust_id
         self.__name = name
         self.__balance = initial_bal
@@ -118,16 +118,16 @@ Account.print_Val()
 class Saving_Account(Account):
     def __int__(self,id,name,initial_bal=0):
         
-        super().__init__(id,name,initial_bal)
+        Account.__init__(self,id,name,initial_bal)
         self.limit = 50000
     
-    # def withdraw(self,amount):
-    #     if amount < self.limit:
-    #         new_bal = super().withdraw(amount)
-    #         self.limit -= amount
-    #         return new_bal
-    #     else:
-    #         print("Daily limit reached")
+    def withdraw(self,amount):
+        if amount < self.limit:
+            new_bal = super().withdraw(amount)
+            self.limit -= amount
+            return new_bal
+        else:
+            print("Daily limit reached")
  
 cust1 = Saving_Account(105,"ARG")
 print(cust1.__dict__)
